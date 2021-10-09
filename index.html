@@ -216,22 +216,12 @@ Start About Section
 						<i class="tf-ion-ios-copy-outline"></i>
 					</div>
 					<h3>Taxi Dispatch Service</h3>
-					<p>We provide support for inbound and outbound calls with booking cabs with pasengers to their respective location via software</p>
+					<p>We provide support for inbound and outbound calls , chat support as well as E-Mail support by booking cabs for passengers to their respective location via 3rd party platform/software for Taxi Brokers.</p>
 				</div>
 			</div>
 			<!-- End Single Service Item -->
 			
-			<!-- Single Service Item -->
-			<div class="col-md-4 col-sm-6" >
-				<div class="service-block text-center">
-					<div class="service-icon text-center">
-						<i class="tf-ion-ios-alarm-outline"></i>
-					</div>
-					<h3>Trucking Dispatch Service</h3>
-					<p>We provide support for Trucking agency including dealing with drivers via call or software and as well as providing complete reporting to Owner or manager of the respective fleet.</p>
-				</div>
-			</div>
-			<!-- End Single Service Item -->
+			
 			<!-- Single Service Item -->
 			<div class="col-md-4 col-sm-6" >
 				<div class="service-block text-center">
@@ -650,96 +640,7 @@ Start About Section
 				</div>
 			</div>
 		</div>
-		<div class="row justify-content-center">
-			<!-- single pricing table -->
-			<div class="col-md-4 col-sm-6">
-				<div class="pricing-item">
-					<!-- plan name & value -->
-					<div class="price-title bg-pricing">
-						<h3>Starter</h3>
-						<strong class="value">$1500</strong>/mon
-						
-					</div>
-					<!-- /plan name & value -->
-
-					<!-- plan description -->
-					<ul>
-						<li>3000 Calls</li>
-						
-              <li>Monthly Presentaion</li>
-              <li>Basic Support</li>
-						<li>24/7 Tech Support</li>
-					</ul>
-					<!-- /plan description -->
-
-					<!-- signup button -->
-					<a class="btn btn-main" href="#contact">Contact Now</a>
-					<!-- /signup button -->
-
-				</div>
-			</div>
-			<!-- end single pricing table -->
-
-			<!-- single pricing table -->
-			<div class="col-md-4 col-sm-6">
-				<div class="pricing-item">
-					<!-- plan name & value -->
-					<div class="price-title  bg-pricing">
-						<h3>Pro</h3>
-						<strong class="value">$5000</strong>/mon
-						
-					</div>
-					<!-- /plan name & value -->
-
-					<!-- plan description -->
-					<ul>
-						<li>5000 Calls</li>
-						<li>Reporting</li>
-						<li>Pro Support</li>
-						<li>Monthly Presentaion</li>
-						<li>Monthly Analysis</li>
-						<li>24/7 Tech Support</li>
-					</ul>
-					<!-- /plan description -->
-
-					<!-- signup button -->
-					<a class="btn btn-main" href="#contact">Contact Now</a>
-					<!-- /signup button -->
-
-				</div>
-			</div>
-			<!-- end single pricing table -->
-
-			<!-- single pricing table -->
-			<div class="col-md-4 col-sm-6 mx-auto">
-				<div class="pricing-item ">
-					<!-- plan name & value -->
-					<div class="price-title bg-pricing">
-						<h3>Enterprise</h3>
-						<strong class="value">$5000</strong>/mon
-						
-					</div>
-					<!-- /plan name & value -->
-
-					<!-- plan description -->
-					<ul>
-						<li>10,000 calls</li>
-						<li>Reporting</li>
-						<li>Weekly Analysis</li>
-						<li>Best Support</li>
-						<li>Weekly Presentaion</li>
-						<li>24/7 Tech Support</li>
-					</ul>
-					<!-- /plan description -->
-
-					<!-- signup button -->
-					<a class="btn btn-main" href="#contact">Contact Now</a>
-					<!-- /signup button -->
-
-				</div>
-			</div>
-			<!-- end single pricing table -->
-
+		<h1>Get a quote by contatcing us at <a href="#"> support@vanciti.com</a></h1>
 
 		</div>
 		<!-- End row -->
@@ -940,6 +841,7 @@ Start Blog Section
 				</div>
 			</div>
 		</div>
+		
 		<div class="row">
 			<!-- Contact Details -->
 			<div class="col-md-6">
@@ -951,39 +853,39 @@ Start Blog Section
 			<!-- / End Contact Details -->
 				
 			<!-- Contact Form -->
-			<div class="contact-form col-md-6 " >
-				<form id="contact-form" method="post" action="sendmail.php" role="form">
-				
-					<div class="form-group">
-						<input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+			<div class="col-lg-5 align-self-center">
+				<form id="contact" action="https://formspree.io/f/xbjqbwyp" method="POST">
+				  <div class="row">
+					<div class="col-lg-12">
+					  <fieldset>
+						<input type="name" name="name" id="name" placeholder="Name" autocomplete="on" class="form-control" required>
+					  </fieldset>
 					</div>
-					
-					<div class="form-group">
-						<input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
+					<div class="col-lg-12">
+					  <fieldset>
+						<input type="surname" name="Company Name" id="surname" placeholder="Company Name" autocomplete="on" class="form-control" required>
+					  </fieldset>
 					</div>
-					
-					<div class="form-group">
-						<input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
+					<div class="col-lg-12">
+					  <fieldset>
+						<input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" class="form-control" required="">
+					  </fieldset>
 					</div>
-					
-					<div class="form-group">
-						<textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>	
+					<div class="col-lg-12">
+					  <fieldset>
+						<input  type="textarea" name="Message" id="website" placeholder="Your Message" class="form-control" required="">
+					  </fieldset>
 					</div>
-					
-					<div id="success" class="success">
-						Thank you. The Mailman is on His Way :)
+					<div class="col-lg-12">
+					  <fieldset>
+						<button style="background-color:burlywood; " type="submit" id="form-submit" class="btn">Submit Request</button>
+					  </fieldset>
 					</div>
-					
-					<div id="error" class="error">
-						Sorry, don't know what happened. Try later :(
-					</div>
-					
-					<div id="cf-submit">
-						<input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
-					</div>						
-					
+				  </div>
 				</form>
+			  </div>
 			</div>
+		  </div>
 			<!-- ./End Contact Form -->
 		</div> <!-- end row -->
 		<div class="row">
@@ -1005,6 +907,7 @@ Start Blog Section
 					<h4>Call Us</h4>
 					<p>
 						Office: (+92) 315 5122460<br>
+						Email: support@vanciti.com
 						
 					</p>
 				</div>
@@ -1065,7 +968,7 @@ Start Blog Section
           <ul>
             <li><a href="#">Techincal Support</a></li>
             <li><a href="#">Taxi-Dispatch Support</a></li>
-            <li><a href="#">Trucking Dispatch Support</a></li>
+            <li><a href="#">E-Commerce Support</a></li>
           </ul>
         </div>
         <!-- End of .col-sm-3 -->
